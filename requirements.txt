@@ -1,0 +1,5 @@
+use virtual environment splendor_env
+python version 3.8
+pip install pybind11
+brew install cmake
+use C/C++ extension in VS Code
