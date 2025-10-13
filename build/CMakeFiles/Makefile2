@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /Users/alejandrobreen/Desktop/SplendorBot/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/SplendorGame.dir/all
+all: CMakeFiles/splendor_game.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/SplendorGame.dir/codegen
+codegen: CMakeFiles/splendor_game.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/SplendorGame.dir/clean
+clean: CMakeFiles/splendor_game.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SplendorGame.dir
+# Target rules for target CMakeFiles/splendor_game.dir
 
 # All Build rule for target.
-CMakeFiles/SplendorGame.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SplendorGame.dir/build.make CMakeFiles/SplendorGame.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SplendorGame.dir/build.make CMakeFiles/SplendorGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles --progress-num=1,2 "Built target SplendorGame"
-.PHONY : CMakeFiles/SplendorGame.dir/all
+CMakeFiles/splendor_game.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target splendor_game"
+.PHONY : CMakeFiles/splendor_game.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SplendorGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SplendorGame.dir/all
+CMakeFiles/splendor_game.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/splendor_game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles 0
-.PHONY : CMakeFiles/SplendorGame.dir/rule
+.PHONY : CMakeFiles/splendor_game.dir/rule
 
 # Convenience name for target.
-SplendorGame: CMakeFiles/SplendorGame.dir/rule
-.PHONY : SplendorGame
+splendor_game: CMakeFiles/splendor_game.dir/rule
+.PHONY : splendor_game
 
 # codegen rule for target.
-CMakeFiles/SplendorGame.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SplendorGame.dir/build.make CMakeFiles/SplendorGame.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles --progress-num=1,2 "Finished codegen for target SplendorGame"
-.PHONY : CMakeFiles/SplendorGame.dir/codegen
+CMakeFiles/splendor_game.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target splendor_game"
+.PHONY : CMakeFiles/splendor_game.dir/codegen
 
 # clean rule for target.
-CMakeFiles/SplendorGame.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SplendorGame.dir/build.make CMakeFiles/SplendorGame.dir/clean
-.PHONY : CMakeFiles/SplendorGame.dir/clean
+CMakeFiles/splendor_game.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/clean
+.PHONY : CMakeFiles/splendor_game.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

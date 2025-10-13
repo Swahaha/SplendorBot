@@ -1,7 +1,7 @@
 PYBIND11_DIR=/opt/homebrew/opt/pybind11/share/cmake/pybind11
 BUILD_DIR=build
 PYTHON_DIR=python
-MODULE_NAME = SplendorGame
+MODULE_NAME = splendor_game
 
 # Default target
 all: build
@@ -17,4 +17,4 @@ build:
 # Clean the build directory
 clean:
 	rm -rf $(BUILD_DIR)
-	rm -f $(PYTHON_DIR)/main*.so
+	rm -f $(PYTHON_DIR)/$(MODULE_NAME)*.so

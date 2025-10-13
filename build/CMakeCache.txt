@@ -149,7 +149,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=SplendorBot
+CMAKE_PROJECT_NAME:STATIC=SplendorGame
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -230,13 +230,13 @@ PYTHON_EXECUTABLE:FILEPATH=/Users/alejandrobreen/opt/anaconda3/envs/splendor_env
 PYTHON_LIBRARY:FILEPATH=/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/lib/libpython3.8.dylib
 
 //Value Computed by CMake
-SplendorBot_BINARY_DIR:STATIC=/Users/alejandrobreen/Desktop/SplendorBot/build
+SplendorGame_BINARY_DIR:STATIC=/Users/alejandrobreen/Desktop/SplendorBot/build
 
 //Value Computed by CMake
-SplendorBot_IS_TOP_LEVEL:STATIC=ON
+SplendorGame_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-SplendorBot_SOURCE_DIR:STATIC=/Users/alejandrobreen/Desktop/SplendorBot
+SplendorGame_SOURCE_DIR:STATIC=/Users/alejandrobreen/Desktop/SplendorBot
 
 //No help, variable specified on the command line.
 pybind11_DIR:UNINITIALIZED=/opt/homebrew/opt/pybind11/share/cmake/pybind11

@@ -117,41 +117,233 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SplendorGame
+# Target rules for targets named splendor_game
 
 # Build rule for target.
-SplendorGame: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SplendorGame
-.PHONY : SplendorGame
+splendor_game: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 splendor_game
+.PHONY : splendor_game
 
 # fast build rule for target.
-SplendorGame/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SplendorGame.dir/build.make CMakeFiles/SplendorGame.dir/build
-.PHONY : SplendorGame/fast
+splendor_game/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/build
+.PHONY : splendor_game/fast
 
-cpp/SplendorGame.o: cpp/SplendorGame.cpp.o
-.PHONY : cpp/SplendorGame.o
+src/bindings.o: src/bindings.cpp.o
+.PHONY : src/bindings.o
 
 # target to build an object file
-cpp/SplendorGame.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SplendorGame.dir/build.make CMakeFiles/SplendorGame.dir/cpp/SplendorGame.cpp.o
-.PHONY : cpp/SplendorGame.cpp.o
+src/bindings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/bindings.cpp.o
+.PHONY : src/bindings.cpp.o
 
-cpp/SplendorGame.i: cpp/SplendorGame.cpp.i
-.PHONY : cpp/SplendorGame.i
+src/bindings.i: src/bindings.cpp.i
+.PHONY : src/bindings.i
 
 # target to preprocess a source file
-cpp/SplendorGame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SplendorGame.dir/build.make CMakeFiles/SplendorGame.dir/cpp/SplendorGame.cpp.i
-.PHONY : cpp/SplendorGame.cpp.i
+src/bindings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/bindings.cpp.i
+.PHONY : src/bindings.cpp.i
 
-cpp/SplendorGame.s: cpp/SplendorGame.cpp.s
-.PHONY : cpp/SplendorGame.s
+src/bindings.s: src/bindings.cpp.s
+.PHONY : src/bindings.s
 
 # target to generate assembly for a file
-cpp/SplendorGame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SplendorGame.dir/build.make CMakeFiles/SplendorGame.dir/cpp/SplendorGame.cpp.s
-.PHONY : cpp/SplendorGame.cpp.s
+src/bindings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/bindings.cpp.s
+.PHONY : src/bindings.cpp.s
+
+src/csv_parser.o: src/csv_parser.cpp.o
+.PHONY : src/csv_parser.o
+
+# target to build an object file
+src/csv_parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/csv_parser.cpp.o
+.PHONY : src/csv_parser.cpp.o
+
+src/csv_parser.i: src/csv_parser.cpp.i
+.PHONY : src/csv_parser.i
+
+# target to preprocess a source file
+src/csv_parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/csv_parser.cpp.i
+.PHONY : src/csv_parser.cpp.i
+
+src/csv_parser.s: src/csv_parser.cpp.s
+.PHONY : src/csv_parser.s
+
+# target to generate assembly for a file
+src/csv_parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/csv_parser.cpp.s
+.PHONY : src/csv_parser.cpp.s
+
+src/game_initializer.o: src/game_initializer.cpp.o
+.PHONY : src/game_initializer.o
+
+# target to build an object file
+src/game_initializer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/game_initializer.cpp.o
+.PHONY : src/game_initializer.cpp.o
+
+src/game_initializer.i: src/game_initializer.cpp.i
+.PHONY : src/game_initializer.i
+
+# target to preprocess a source file
+src/game_initializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/game_initializer.cpp.i
+.PHONY : src/game_initializer.cpp.i
+
+src/game_initializer.s: src/game_initializer.cpp.s
+.PHONY : src/game_initializer.s
+
+# target to generate assembly for a file
+src/game_initializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/game_initializer.cpp.s
+.PHONY : src/game_initializer.cpp.s
+
+src/game_state.o: src/game_state.cpp.o
+.PHONY : src/game_state.o
+
+# target to build an object file
+src/game_state.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/game_state.cpp.o
+.PHONY : src/game_state.cpp.o
+
+src/game_state.i: src/game_state.cpp.i
+.PHONY : src/game_state.i
+
+# target to preprocess a source file
+src/game_state.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/game_state.cpp.i
+.PHONY : src/game_state.cpp.i
+
+src/game_state.s: src/game_state.cpp.s
+.PHONY : src/game_state.s
+
+# target to generate assembly for a file
+src/game_state.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/game_state.cpp.s
+.PHONY : src/game_state.cpp.s
+
+src/move_executor.o: src/move_executor.cpp.o
+.PHONY : src/move_executor.o
+
+# target to build an object file
+src/move_executor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/move_executor.cpp.o
+.PHONY : src/move_executor.cpp.o
+
+src/move_executor.i: src/move_executor.cpp.i
+.PHONY : src/move_executor.i
+
+# target to preprocess a source file
+src/move_executor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/move_executor.cpp.i
+.PHONY : src/move_executor.cpp.i
+
+src/move_executor.s: src/move_executor.cpp.s
+.PHONY : src/move_executor.s
+
+# target to generate assembly for a file
+src/move_executor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/move_executor.cpp.s
+.PHONY : src/move_executor.cpp.s
+
+src/move_generator.o: src/move_generator.cpp.o
+.PHONY : src/move_generator.o
+
+# target to build an object file
+src/move_generator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/move_generator.cpp.o
+.PHONY : src/move_generator.cpp.o
+
+src/move_generator.i: src/move_generator.cpp.i
+.PHONY : src/move_generator.i
+
+# target to preprocess a source file
+src/move_generator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/move_generator.cpp.i
+.PHONY : src/move_generator.cpp.i
+
+src/move_generator.s: src/move_generator.cpp.s
+.PHONY : src/move_generator.s
+
+# target to generate assembly for a file
+src/move_generator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/move_generator.cpp.s
+.PHONY : src/move_generator.cpp.s
+
+src/player_state.o: src/player_state.cpp.o
+.PHONY : src/player_state.o
+
+# target to build an object file
+src/player_state.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/player_state.cpp.o
+.PHONY : src/player_state.cpp.o
+
+src/player_state.i: src/player_state.cpp.i
+.PHONY : src/player_state.i
+
+# target to preprocess a source file
+src/player_state.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/player_state.cpp.i
+.PHONY : src/player_state.cpp.i
+
+src/player_state.s: src/player_state.cpp.s
+.PHONY : src/player_state.s
+
+# target to generate assembly for a file
+src/player_state.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/player_state.cpp.s
+.PHONY : src/player_state.cpp.s
+
+src/state_serializer.o: src/state_serializer.cpp.o
+.PHONY : src/state_serializer.o
+
+# target to build an object file
+src/state_serializer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/state_serializer.cpp.o
+.PHONY : src/state_serializer.cpp.o
+
+src/state_serializer.i: src/state_serializer.cpp.i
+.PHONY : src/state_serializer.i
+
+# target to preprocess a source file
+src/state_serializer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/state_serializer.cpp.i
+.PHONY : src/state_serializer.cpp.i
+
+src/state_serializer.s: src/state_serializer.cpp.s
+.PHONY : src/state_serializer.s
+
+# target to generate assembly for a file
+src/state_serializer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/state_serializer.cpp.s
+.PHONY : src/state_serializer.cpp.s
+
+src/types.o: src/types.cpp.o
+.PHONY : src/types.o
+
+# target to build an object file
+src/types.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/types.cpp.o
+.PHONY : src/types.cpp.o
+
+src/types.i: src/types.cpp.i
+.PHONY : src/types.i
+
+# target to preprocess a source file
+src/types.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/types.cpp.i
+.PHONY : src/types.cpp.i
+
+src/types.s: src/types.cpp.s
+.PHONY : src/types.s
+
+# target to generate assembly for a file
+src/types.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/splendor_game.dir/build.make CMakeFiles/splendor_game.dir/src/types.cpp.s
+.PHONY : src/types.cpp.s
 
 # Help Target
 help:
@@ -161,10 +353,34 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SplendorGame"
-	@echo "... cpp/SplendorGame.o"
-	@echo "... cpp/SplendorGame.i"
-	@echo "... cpp/SplendorGame.s"
+	@echo "... splendor_game"
+	@echo "... src/bindings.o"
+	@echo "... src/bindings.i"
+	@echo "... src/bindings.s"
+	@echo "... src/csv_parser.o"
+	@echo "... src/csv_parser.i"
+	@echo "... src/csv_parser.s"
+	@echo "... src/game_initializer.o"
+	@echo "... src/game_initializer.i"
+	@echo "... src/game_initializer.s"
+	@echo "... src/game_state.o"
+	@echo "... src/game_state.i"
+	@echo "... src/game_state.s"
+	@echo "... src/move_executor.o"
+	@echo "... src/move_executor.i"
+	@echo "... src/move_executor.s"
+	@echo "... src/move_generator.o"
+	@echo "... src/move_generator.i"
+	@echo "... src/move_generator.s"
+	@echo "... src/player_state.o"
+	@echo "... src/player_state.i"
+	@echo "... src/player_state.s"
+	@echo "... src/state_serializer.o"
+	@echo "... src/state_serializer.i"
+	@echo "... src/state_serializer.s"
+	@echo "... src/types.o"
+	@echo "... src/types.i"
+	@echo "... src/types.s"
 .PHONY : help
 
 
