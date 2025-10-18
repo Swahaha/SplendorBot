@@ -88,7 +88,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/pkgRedirects
 
 //Path to a program.
-CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
+CMAKE_INSTALL_NAME_TOOL:FILEPATH=/Users/alejandrobreen/opt/anaconda3/bin/install_name_tool
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
@@ -208,7 +208,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_STRIP:FILEPATH=/usr/bin/strip
 
 //Path to a program.
-CMAKE_TAPI:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/tapi
+CMAKE_TAPI:FILEPATH=/Users/alejandrobreen/opt/anaconda3/bin/tapi
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -224,10 +224,10 @@ PYBIND11_PYTHONLIBS_OVERWRITE:BOOL=ON
 PYBIND11_PYTHON_VERSION:STRING=
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/python
+PYTHON_EXECUTABLE:FILEPATH=/Users/alejandrobreen/opt/anaconda3/python.app/Contents/MacOS/python
 
 //Path to a library.
-PYTHON_LIBRARY:FILEPATH=/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/lib/libpython3.8.dylib
+PYTHON_LIBRARY:FILEPATH=/Users/alejandrobreen/opt/anaconda3/lib/libpython3.9.dylib
 
 //Value Computed by CMake
 SplendorGame_BINARY_DIR:STATIC=/Users/alejandrobreen/Desktop/SplendorBot/build
@@ -388,29 +388,29 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding PYTHON
-FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/python3.8.20
+FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=/Users/alejandrobreen/opt/anaconda3/python.app/Contents/MacOS/python3.9.13
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/python][v3.8.20(3.8)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/Users/alejandrobreen/opt/anaconda3/python.app/Contents/MacOS/python][v3.9.13(3.8)]
 //Test HAS_FLTO
 HAS_FLTO:INTERNAL=1
 //Test HAS_FLTO_THIN
 HAS_FLTO_THIN:INTERNAL=1
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
-PYTHON_INCLUDE_DIRS:INTERNAL=/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8
+PYTHON_INCLUDE_DIRS:INTERNAL=/Users/alejandrobreen/opt/anaconda3/include/python3.9
 PYTHON_IS_DEBUG:INTERNAL=0
-PYTHON_LIBRARIES:INTERNAL=/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/lib/libpython3.8.dylib
+PYTHON_LIBRARIES:INTERNAL=/Users/alejandrobreen/opt/anaconda3/lib/libpython3.9.dylib
 //ADVANCED property for variable: PYTHON_LIBRARY
 PYTHON_LIBRARY-ADVANCED:INTERNAL=1
 PYTHON_MODULE_DEBUG_POSTFIX:INTERNAL=
-PYTHON_MODULE_EXTENSION:INTERNAL=.cpython-38-darwin.so
+PYTHON_MODULE_EXTENSION:INTERNAL=.cpython-39-darwin.so
 PYTHON_MODULE_PREFIX:INTERNAL=
-PYTHON_VERSION:INTERNAL=3.8.20
+PYTHON_VERSION:INTERNAL=3.9.13
 PYTHON_VERSION_MAJOR:INTERNAL=3
-PYTHON_VERSION_MINOR:INTERNAL=8
+PYTHON_VERSION_MINOR:INTERNAL=9
 Python_ADDITIONAL_VERSIONS:INTERNAL=3.12;3.11;3.10;3.9;3.8
 _PYBIND11_CROSSCOMPILING:INTERNAL=OFF
 _Python:INTERNAL=PYTHON
 //Directories where pybind11 and possibly Python headers are located
-pybind11_INCLUDE_DIRS:INTERNAL=/opt/homebrew/opt/pybind11/include;/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8
+pybind11_INCLUDE_DIRS:INTERNAL=/opt/homebrew/opt/pybind11/include;/Users/alejandrobreen/opt/anaconda3/include/python3.9
 

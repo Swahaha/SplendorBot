@@ -1,5 +1,6 @@
 #pragma once
 #include "game_state.h"
+#include "state_serializer.h"
 
 namespace splendor {
 

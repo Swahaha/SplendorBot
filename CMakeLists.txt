@@ -1,19 +1,7 @@
-# cmake_minimum_required(VERSION 3.15)
-# project(SplendorBot)
-
-# set(CMAKE_CXX_STANDARD 17)
-
-# # Find pybind11
-# find_package(pybind11 REQUIRED)
-
-# # Add the Python module
-# pybind11_add_module(SplendorGame ${CMAKE_SOURCE_DIR}/cpp/SplendorGame.cpp)
-
-
 cmake_minimum_required(VERSION 3.12)
 project(SplendorGame)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(pybind11 REQUIRED)
@@ -32,8 +20,4 @@ pybind11_add_module(splendor_game
     src/bindings.cpp
 )
 
-if(MSVC)
-    target_compile_options(splendor_game PRIVATE /W4)
-else()
-    target_compile_options(splendor_game PRIVATE -Wall -Wextra)
-endif()
+target_compile_options(splendor_game PRIVATE -Wall -Wextra)

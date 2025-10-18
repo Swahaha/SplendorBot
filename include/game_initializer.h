@@ -5,7 +5,7 @@ namespace splendor {
 
 class GameInitializer {
 public:
-    static void InitializeGame(SplendorGame& game);
+    static void InitializeGame(SplendorGame& game); // base funtion which calls the other ones
     static void DrawIntoSlot(SplendorGame& game, int tier, int slot);
 private:
     static void InitializeBank(SplendorGame& game);

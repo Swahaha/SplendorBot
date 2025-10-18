@@ -5,7 +5,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_UNAME"
     description: "Path to a program."
@@ -21,7 +21,7 @@ events:
       - "uname"
     candidate_directories:
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -43,11 +43,10 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/uname"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/uname"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/uname"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/uname"
       - "/opt/local/bin/uname"
       - "/opt/local/sbin/uname"
@@ -61,7 +60,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -83,20 +82,19 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "message-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Darwin - 23.6.0 - arm64
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Path to a program."
@@ -114,7 +112,7 @@ events:
       - "smake"
     candidate_directories:
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -136,11 +134,10 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/gmake"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/gmake"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/gmake"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/gmake"
       - "/opt/local/bin/gmake"
       - "/opt/local/sbin/gmake"
@@ -162,10 +159,9 @@ events:
       - "/usr/local/share/dotnet/gmake"
       - "/Users/alejandrobreen/.dotnet/tools/gmake"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/gmake"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/gmake"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/make"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/make"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/make"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/make"
       - "/opt/local/bin/make"
       - "/opt/local/sbin/make"
@@ -179,7 +175,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -201,14 +197,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER"
     description: "C compiler"
@@ -230,7 +225,7 @@ events:
       - "clang"
     candidate_directories:
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -252,11 +247,10 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/cc"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/cc"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/cc"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/cc"
       - "/opt/local/bin/cc"
       - "/opt/local/sbin/cc"
@@ -270,7 +264,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -292,7 +286,6 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -302,7 +295,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -322,7 +315,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -344,7 +337,6 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "message-v1"
@@ -352,7 +344,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /usr/bin/cc 
@@ -373,7 +365,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
         # 1 "apple-sdk.c"
@@ -406,7 +398,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -423,7 +415,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -444,13 +436,12 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -472,14 +463,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -496,7 +486,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -517,13 +507,12 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -545,14 +534,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -569,7 +557,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -590,13 +578,12 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -618,14 +605,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -642,7 +628,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -663,13 +649,12 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -691,14 +676,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -715,7 +699,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -736,13 +720,12 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -764,14 +747,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -788,7 +770,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -809,13 +791,12 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -837,14 +818,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -861,7 +841,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -882,12 +862,11 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/objcopy"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/objcopy"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/objcopy"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/objcopy"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/objcopy"
       - "/opt/local/bin/objcopy"
       - "/opt/local/sbin/objcopy"
@@ -908,13 +887,12 @@ events:
       - "/usr/local/share/dotnet/objcopy"
       - "/Users/alejandrobreen/.dotnet/tools/objcopy"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/objcopy"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/objcopy"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -936,14 +914,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -960,7 +937,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -981,12 +958,11 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/readelf"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/readelf"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/readelf"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/readelf"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/readelf"
       - "/opt/local/bin/readelf"
       - "/opt/local/sbin/readelf"
@@ -1007,13 +983,12 @@ events:
       - "/usr/local/share/dotnet/readelf"
       - "/Users/alejandrobreen/.dotnet/tools/readelf"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/readelf"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/readelf"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1035,14 +1010,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -1059,7 +1033,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -1080,12 +1054,11 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/dlltool"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/dlltool"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/dlltool"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/dlltool"
       - "/opt/local/bin/dlltool"
       - "/opt/local/sbin/dlltool"
@@ -1106,13 +1079,12 @@ events:
       - "/usr/local/share/dotnet/dlltool"
       - "/Users/alejandrobreen/.dotnet/tools/dlltool"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/dlltool"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/dlltool"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1134,14 +1106,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -1158,7 +1129,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -1179,12 +1150,11 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/addr2line"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/addr2line"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/addr2line"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/addr2line"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/addr2line"
       - "/opt/local/bin/addr2line"
       - "/opt/local/sbin/addr2line"
@@ -1205,13 +1175,12 @@ events:
       - "/usr/local/share/dotnet/addr2line"
       - "/Users/alejandrobreen/.dotnet/tools/addr2line"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/addr2line"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/addr2line"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
     found: false
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1233,14 +1202,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -1257,7 +1225,7 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -1278,39 +1246,15 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/tapi"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/tapi"
-      - "/Users/alejandrobreen/opt/anaconda3/condabin/tapi"
-      - "/opt/local/bin/tapi"
-      - "/opt/local/sbin/tapi"
-      - "/Library/Frameworks/Python.framework/Versions/3.7/bin/tapi"
-      - "/opt/homebrew/bin/tapi"
-      - "/opt/homebrew/sbin/tapi"
-      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/tapi"
-      - "/usr/local/bin/tapi"
-      - "/System/Cryptexes/App/usr/bin/tapi"
-      - "/bin/tapi"
-      - "/usr/sbin/tapi"
-      - "/sbin/tapi"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
-      - "/Library/Apple/usr/bin/tapi"
-      - "/Library/TeX/texbin/tapi"
-      - "/usr/local/share/dotnet/tapi"
-      - "/Users/alejandrobreen/.dotnet/tools/tapi"
-      - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/tapi"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/tapi"
-      - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
-    found: false
+    found: "/Users/alejandrobreen/opt/anaconda3/bin/tapi"
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1332,14 +1276,13 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER"
     description: "CXX compiler"
@@ -1365,7 +1308,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1387,7 +1330,6 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -1397,7 +1339,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1417,7 +1359,7 @@ events:
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1439,7 +1381,6 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "message-v1"
@@ -1447,7 +1388,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /usr/bin/c++ 
@@ -1468,7 +1409,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
         # 1 "apple-sdk.cpp"
@@ -1501,7 +1442,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_INSTALL_NAME_TOOL"
     description: "Path to a program."
@@ -1517,7 +1458,7 @@ events:
       - "install_name_tool"
     candidate_directories:
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
       - "/Users/alejandrobreen/opt/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -1539,25 +1480,14 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/alejandrobreen/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin/install_name_tool"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/install_name_tool"
-      - "/Users/alejandrobreen/opt/anaconda3/condabin/install_name_tool"
-      - "/opt/local/bin/install_name_tool"
-      - "/opt/local/sbin/install_name_tool"
-      - "/Library/Frameworks/Python.framework/Versions/3.7/bin/install_name_tool"
-      - "/opt/homebrew/bin/install_name_tool"
-      - "/opt/homebrew/sbin/install_name_tool"
-      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/install_name_tool"
-      - "/usr/local/bin/install_name_tool"
-      - "/System/Cryptexes/App/usr/bin/install_name_tool"
-    found: "/usr/bin/install_name_tool"
+    found: "/Users/alejandrobreen/opt/anaconda3/bin/install_name_tool"
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1579,7 +1509,6 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
@@ -1587,12 +1516,12 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-AlRVMr"
-      binary: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-AlRVMr"
+      source: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-YYG8F6"
+      binary: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-YYG8F6"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1604,18 +1533,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-AlRVMr'
+        Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-YYG8F6'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_05ce7/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_05ce7.dir/build.make CMakeFiles/cmTC_05ce7.dir/build
-        Building C object CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch x86_64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_828ce/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_828ce.dir/build.make CMakeFiles/cmTC_828ce.dir/build
+        Building C object CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch x86_64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 16.0.0 (clang-1600.0.26.6)
         Target: x86_64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-AlRVMr -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-AlRVMr -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-YYG8F6 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-YYG8F6 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin23.6.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1627,13 +1556,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_05ce7
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05ce7.dir/link.txt --verbose=1
+        Linking C executable cmTC_828ce
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_828ce.dir/link.txt --verbose=1
         Apple clang version 16.0.0 (clang-1600.0.26.6)
         Target: x86_64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_05ce7 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_828ce -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1115.7.3
         BUILD 23:52:02 Dec  5 2024
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1646,7 +1575,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -o cmTC_05ce7
+        /usr/bin/cc  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -o cmTC_828ce
         
       exitCode: 0
   -
@@ -1654,7 +1583,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Effective list of requested architectures (possibly empty)  : "x86_64"
       Effective list of architectures found in the ABI info binary: "x86_64"
@@ -1663,7 +1592,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -1685,23 +1614,23 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-AlRVMr']
+        ignore line: [Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-YYG8F6']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_05ce7/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_05ce7.dir/build.make CMakeFiles/cmTC_05ce7.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch x86_64   -v -Wl -v -MD -MT CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_828ce/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_828ce.dir/build.make CMakeFiles/cmTC_828ce.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch x86_64   -v -Wl -v -MD -MT CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
         ignore line: [Target: x86_64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-AlRVMr -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-AlRVMr -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-YYG8F6 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-YYG8F6 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin23.6.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1713,13 +1642,13 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_05ce7]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05ce7.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_828ce]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_828ce.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
         ignore line: [Target: x86_64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_05ce7 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_828ce -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1736,12 +1665,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_05ce7] ==> ignore
+          arg [cmTC_828ce] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_05ce7.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_828ce.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
@@ -1766,7 +1695,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
       @(#)PROGRAM:ld PROJECT:ld-1115.7.3
@@ -1780,12 +1709,12 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-yoZspr"
-      binary: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-yoZspr"
+      source: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Q4TsEW"
+      binary: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Q4TsEW"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1798,19 +1727,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-yoZspr'
+        Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Q4TsEW'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6e45/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b6e45.dir/build.make CMakeFiles/cmTC_b6e45.dir/build
-        Building CXX object CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch x86_64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4d4a5/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4d4a5.dir/build.make CMakeFiles/cmTC_4d4a5.dir/build
+        Building CXX object CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch x86_64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 16.0.0 (clang-1600.0.26.6)
         Target: x86_64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-yoZspr -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-yoZspr -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Q4TsEW -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Q4TsEW -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin23.6.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1823,13 +1752,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_b6e45
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e45.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_4d4a5
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d4a5.dir/link.txt --verbose=1
         Apple clang version 16.0.0 (clang-1600.0.26.6)
         Target: x86_64-apple-darwin23.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b6e45 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4d4a5 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1115.7.3
         BUILD 23:52:02 Dec  5 2024
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1842,7 +1771,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b6e45
+        /usr/bin/c++  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4d4a5
         
       exitCode: 0
   -
@@ -1850,7 +1779,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Effective list of requested architectures (possibly empty)  : "x86_64"
       Effective list of architectures found in the ABI info binary: "x86_64"
@@ -1859,7 +1788,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -1883,24 +1812,24 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-yoZspr']
+        ignore line: [Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Q4TsEW']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6e45/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b6e45.dir/build.make CMakeFiles/cmTC_b6e45.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch x86_64   -v -Wl -v -MD -MT CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4d4a5/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4d4a5.dir/build.make CMakeFiles/cmTC_4d4a5.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch x86_64   -v -Wl -v -MD -MT CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
         ignore line: [Target: x86_64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-yoZspr -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-yoZspr -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Q4TsEW -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Q4TsEW -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.6) default target arm64-apple-darwin23.6.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1913,13 +1842,13 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_b6e45]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e45.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_4d4a5]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d4a5.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.6)]
         ignore line: [Target: x86_64-apple-darwin23.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b6e45 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 15.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4d4a5 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1936,12 +1865,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b6e45] ==> ignore
+          arg [cmTC_4d4a5] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b6e45.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_4d4a5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
@@ -1967,7 +1896,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:14 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
       @(#)PROGRAM:ld PROJECT:ld-1115.7.3
@@ -1983,7 +1912,7 @@ events:
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)"
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Common.cmake:226 (include)"
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
-      - "CMakeLists.txt:19 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     mode: "program"
     variable: "PYTHON_EXECUTABLE"
     description: "Path to a program."
@@ -1998,15 +1927,13 @@ events:
     names:
       - "python"
     candidate_directories:
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/"
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/"
-    searched_directories:
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/python"
-    found: "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin/python"
+      - "/Users/alejandrobreen/opt/anaconda3/"
+      - "/Users/alejandrobreen/opt/anaconda3/bin/"
+    found: "/Users/alejandrobreen/opt/anaconda3/python.app/Contents/MacOS/python"
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -2028,7 +1955,6 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -2056,7 +1982,7 @@ events:
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)"
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Common.cmake:226 (include)"
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
-      - "CMakeLists.txt:19 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     mode: "library"
     variable: "PYTHON_LIBRARY"
     description: "Path to a library."
@@ -2069,14 +1995,14 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "python3.8"
+      - "python3.9"
     candidate_directories:
-      - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/lib/"
-    found: "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/lib/libpython3.8.dylib"
+      - "/Users/alejandrobreen/opt/anaconda3/lib/"
+    found: "/Users/alejandrobreen/opt/anaconda3/lib/libpython3.9.dylib"
     search_context:
       ENV{PATH}:
         - "/Users/alejandrobreen/.nvm/versions/node/v20.5.1/bin"
-        - "/Users/alejandrobreen/opt/anaconda3/envs/splendor_env/bin"
+        - "/Users/alejandrobreen/opt/anaconda3/bin"
         - "/Users/alejandrobreen/opt/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -2098,7 +2024,6 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/alejandrobreen/.vscode/extensions/ms-python.debugpy-2025.14.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/alejandrobreen/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
@@ -2136,12 +2061,12 @@ events:
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Common.cmake:361 (_pybind11_return_if_cxx_and_linker_flags_work)"
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Common.cmake:427 (_pybind11_generate_lto)"
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
-      - "CMakeLists.txt:19 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     checks:
       - "Performing Test HAS_FLTO_THIN"
     directories:
-      source: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Ffm7xj"
-      binary: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Ffm7xj"
+      source: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-zTvFdm"
+      binary: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-zTvFdm"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2154,15 +2079,15 @@ events:
       variable: "HAS_FLTO_THIN"
       cached: true
       stdout: |
-        Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Ffm7xj'
+        Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-zTvFdm'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dc2ae/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dc2ae.dir/build.make CMakeFiles/cmTC_dc2ae.dir/build
-        Building CXX object CMakeFiles/cmTC_dc2ae.dir/src.cxx.o
-        /usr/bin/c++ -DHAS_FLTO_THIN  -std=gnu++17 -arch x86_64   -flto -MD -MT CMakeFiles/cmTC_dc2ae.dir/src.cxx.o -MF CMakeFiles/cmTC_dc2ae.dir/src.cxx.o.d -o CMakeFiles/cmTC_dc2ae.dir/src.cxx.o -c /Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-Ffm7xj/src.cxx
-        Linking CXX executable cmTC_dc2ae
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc2ae.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dc2ae.dir/src.cxx.o -o cmTC_dc2ae  -flto
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63f1c/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_63f1c.dir/build.make CMakeFiles/cmTC_63f1c.dir/build
+        Building CXX object CMakeFiles/cmTC_63f1c.dir/src.cxx.o
+        /usr/bin/c++ -DHAS_FLTO_THIN  -std=gnu++20 -arch x86_64   -flto -MD -MT CMakeFiles/cmTC_63f1c.dir/src.cxx.o -MF CMakeFiles/cmTC_63f1c.dir/src.cxx.o.d -o CMakeFiles/cmTC_63f1c.dir/src.cxx.o -c /Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-zTvFdm/src.cxx
+        Linking CXX executable cmTC_63f1c
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63f1c.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_63f1c.dir/src.cxx.o -o cmTC_63f1c  -flto
         
       exitCode: 0
   -
@@ -2175,12 +2100,12 @@ events:
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Common.cmake:371 (_pybind11_return_if_cxx_and_linker_flags_work)"
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Common.cmake:427 (_pybind11_generate_lto)"
       - "/opt/homebrew/opt/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
-      - "CMakeLists.txt:19 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
     checks:
       - "Performing Test HAS_FLTO"
     directories:
-      source: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-1EVzJw"
-      binary: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-1EVzJw"
+      source: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-mk8Fky"
+      binary: "/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-mk8Fky"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2193,15 +2118,15 @@ events:
       variable: "HAS_FLTO"
       cached: true
       stdout: |
-        Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-1EVzJw'
+        Change Dir: '/Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-mk8Fky'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65bd2/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_65bd2.dir/build.make CMakeFiles/cmTC_65bd2.dir/build
-        Building CXX object CMakeFiles/cmTC_65bd2.dir/src.cxx.o
-        /usr/bin/c++ -DHAS_FLTO  -std=gnu++17 -arch x86_64   -flto -MD -MT CMakeFiles/cmTC_65bd2.dir/src.cxx.o -MF CMakeFiles/cmTC_65bd2.dir/src.cxx.o.d -o CMakeFiles/cmTC_65bd2.dir/src.cxx.o -c /Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-1EVzJw/src.cxx
-        Linking CXX executable cmTC_65bd2
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65bd2.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_65bd2.dir/src.cxx.o -o cmTC_65bd2  -flto
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0a87f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0a87f.dir/build.make CMakeFiles/cmTC_0a87f.dir/build
+        Building CXX object CMakeFiles/cmTC_0a87f.dir/src.cxx.o
+        /usr/bin/c++ -DHAS_FLTO  -std=gnu++20 -arch x86_64   -flto -MD -MT CMakeFiles/cmTC_0a87f.dir/src.cxx.o -MF CMakeFiles/cmTC_0a87f.dir/src.cxx.o.d -o CMakeFiles/cmTC_0a87f.dir/src.cxx.o -c /Users/alejandrobreen/Desktop/SplendorBot/build/CMakeFiles/CMakeScratch/TryCompile-mk8Fky/src.cxx
+        Linking CXX executable cmTC_0a87f
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a87f.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0a87f.dir/src.cxx.o -o cmTC_0a87f  -flto
         
       exitCode: 0
 ...

@@ -1,5 +1,6 @@
 #pragma once
 #include "game_state.h"
+#include "types.h"
 
 namespace splendor {
 
@@ -10,7 +11,7 @@ public:
 private:
     static void ReserveCard(SplendorGame& game, int tier, int slot);
     static void BuyCardFromMarket(SplendorGame& game, int tier, int slot);
-    static void BuyCardFromReserve(SplendorGame& game, int index);
+    static void BuyCardFromReserve(SplendorGame& game, uint8_t idx);
     static bool PurchaseCard(SplendorGame& game, PlayerState& player, const Card& card);
     static void TakeTokens3(SplendorGame& game, const std::array<uint8_t, DEV_COLORS>& tokens);
     static void TakeTokens2(SplendorGame& game, const std::array<uint8_t, DEV_COLORS>& tokens);
@@ -20,4 +21,4 @@ private:
                          const std::array<uint8_t, DEV_COLORS>& discounts);
 };
 
-} // namespace splendor
+}

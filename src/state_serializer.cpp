@@ -1,6 +1,7 @@
 #include "state_serializer.h"
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
+#include <iostream>
 
 namespace py = pybind11;
 
@@ -8,6 +9,8 @@ namespace splendor {
 
 py::dict StateSerializer::StateSummary(const SplendorGame& game) {
     py::dict d;
+
+    // std::cout << "Current player in StateSummary: " << game.current_player_ << std::endl;
 
     SerializeBank(game, d);
     SerializeMarket(game, d);

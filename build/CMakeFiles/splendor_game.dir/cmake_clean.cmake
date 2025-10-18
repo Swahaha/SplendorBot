@@ -17,7 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/splendor_game.dir/src/state_serializer.cpp.o.d"
   "CMakeFiles/splendor_game.dir/src/types.cpp.o"
   "CMakeFiles/splendor_game.dir/src/types.cpp.o.d"
-  "splendor_game.cpython-38-darwin.so"
+  "splendor_game.cpython-39-darwin.so"
   "splendor_game.pdb"
 )
 

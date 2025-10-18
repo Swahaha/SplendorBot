@@ -985,10 +985,10 @@ CMakeFiles/splendor_game.dir/src/game_initializer.cpp.o: \
   /opt/homebrew/opt/pybind11/include/pybind11/attr.h \
   /opt/homebrew/opt/pybind11/include/pybind11/detail/common.h \
   /opt/homebrew/opt/pybind11/include/pybind11/conduit/wrap_include_python_h.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/Python.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/patchlevel.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pyconfig.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pymacconfig.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/Python.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/patchlevel.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pyconfig.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pymacconfig.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h \
@@ -999,7 +999,7 @@ CMakeFiles/splendor_game.dir/src/game_initializer.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pyport.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pyport.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/inttypes.h \
@@ -1010,89 +1010,100 @@ CMakeFiles/splendor_game.dir/src/game_initializer.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stat.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_filesec_t.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pymacro.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pymath.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pytime.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/object.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pymem.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/pymem.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/object.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/objimpl.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/objimpl.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/typeslots.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pyhash.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pydebug.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/bytearrayobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/bytesobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/unicodeobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/unicodeobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/longobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/longintrepr.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/boolobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/floatobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/complexobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/rangeobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/memoryobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/tupleobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/tupleobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/listobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/dictobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/dictobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/odictobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/enumobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/setobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/methodobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/moduleobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/funcobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/classobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/fileobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/fileobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pycapsule.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/traceback.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/traceback.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/sliceobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cellobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/iterobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/genobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pystate.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pythread.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/pystate.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/initconfig.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/descrobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/warnings.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/weakrefobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/structseq.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/namespaceobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/picklebufobject.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/codecs.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pyerrors.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/pyerrors.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/context.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pyarena.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/modsupport.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/compile.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/code.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pythonrun.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pylifecycle.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/pylifecycle.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/ceval.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/sysmodule.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/sysmodule.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/osmodule.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/intrcheck.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/import.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/abstract.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/cpython/abstract.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/bltinmodule.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/eval.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pyctype.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pystrtod.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pystrcmp.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/dtoa.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/fileutils.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/pyfpe.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/tracemalloc.h \
-  /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8/frameobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/exports.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pymacro.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pymath.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pytime.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/object.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/object.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pymem.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/pymem.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/objimpl.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/objimpl.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/typeslots.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pyhash.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pydebug.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/bytearrayobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/bytearrayobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/bytesobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/bytesobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/unicodeobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/unicodeobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/longobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/longintrepr.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/boolobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/floatobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/complexobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/rangeobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/memoryobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/tupleobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/tupleobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/listobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/listobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/dictobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/dictobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/odictobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/enumobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/setobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/methodobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/methodobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/moduleobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/funcobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/classobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/fileobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/fileobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pycapsule.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/code.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/code.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pyframe.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/traceback.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/traceback.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/sliceobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cellobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/iterobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/initconfig.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/genobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pystate.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/pystate.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/descrobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/genericaliasobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/warnings.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/weakrefobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/structseq.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/namespaceobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/picklebufobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/codecs.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pyerrors.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/pyerrors.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pythread.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/context.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pyarena.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/modsupport.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/compile.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pythonrun.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pylifecycle.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/pylifecycle.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/ceval.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/ceval.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/sysmodule.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/sysmodule.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/osmodule.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/intrcheck.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/import.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/import.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/abstract.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/abstract.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/bltinmodule.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/eval.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pyctype.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pystrtod.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pystrcmp.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/fileutils.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/fileutils.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/pyfpe.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/tracemalloc.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/frameobject.h \
+  /Users/alejandrobreen/opt/anaconda3/include/python3.9/cpython/frameobject.h \
   /opt/homebrew/opt/pybind11/include/pybind11/detail/pybind11_namespace_macros.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
@@ -1152,22 +1163,6 @@ CMakeFiles/splendor_game.dir/src/game_initializer.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/calendar.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/concepts.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/hh_mm_ss.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/day.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/month.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/month_weekday.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/weekday.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/monthday.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_day.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/literals.h \
   /opt/homebrew/opt/pybind11/include/pybind11/detail/type_caster_base.h \
   /opt/homebrew/opt/pybind11/include/pybind11/gil.h \
   /opt/homebrew/opt/pybind11/include/pybind11/detail/cpp_conduit.h \
@@ -1189,6 +1184,7 @@ CMakeFiles/splendor_game.dir/src/game_initializer.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \

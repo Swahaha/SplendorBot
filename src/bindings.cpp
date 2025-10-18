@@ -14,7 +14,7 @@ PYBIND11_MODULE(splendor_game, m) {
         .def("current_player", &SplendorGame::current_player)
         .def("end_turn", &SplendorGame::end_turn)
         .def("state_summary", &SplendorGame::state_summary)
-        .def("get_legal_moves", &SplendorGame::get_legal_moves)
+        .def("legal_moves", &SplendorGame::legal_moves)
         .def("perform_move", &SplendorGame::perform_move)
         .def("is_terminal", &SplendorGame::is_terminal);
 }

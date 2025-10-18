@@ -8,9 +8,7 @@ namespace splendor {
 
 SplendorGame::SplendorGame(int num_players, uint64_t seed) 
     : num_players_(num_players), current_player_(0), rng_(seed) {
-    if (num_players < 2 || num_players > 4) {
-        throw std::invalid_argument("num players must be between 2 and 4");
-    }
+    if (num_players < 2 || num_players > 4) throw std::invalid_argument("num players must be between 2 and 4");
     GameInitializer::InitializeGame(*this);
 }
 
@@ -18,18 +16,15 @@ py::dict SplendorGame::state_summary() const {
     return StateSerializer::StateSummary(*this);
 }
 
-py::list SplendorGame::get_legal_moves() const {
-    throw std::runtime_error("not implemented yet");
+py::list SplendorGame::legal_moves() const {
     return MoveGenerator::GetLegalMoves(*this);
 }
 
 void SplendorGame::perform_move(py::object move_obj) {
-    throw std::runtime_error("not implemented yet");
     MoveExecutor::PerformMove(*this, move_obj);
 }
 
 bool SplendorGame::is_terminal() const {
-    throw std::runtime_error("not implemented yet");
     return check_game_over();
 }
 

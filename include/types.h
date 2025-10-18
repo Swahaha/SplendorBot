@@ -11,10 +11,15 @@ struct Card {
     Color bonus_color = WHITE;
     std::array<uint8_t, DEV_COLORS> cost{};
     uint8_t tier = 1;
+    uint8_t id;
     bool valid = false;
+
+    bool operator==(const Card& other) const {
+        return id == other.id; // compare the right fields for identity
+    }
     
     Card() = default;
-    Card(uint8_t points, Color color, std::array<uint8_t, DEV_COLORS> c, uint8_t t = false);
+    Card(uint8_t points, Color color, std::array<uint8_t, DEV_COLORS> c, uint8_t t, uint8_t i);
 };
 
 struct Noble {

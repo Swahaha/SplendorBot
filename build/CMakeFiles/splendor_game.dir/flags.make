@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dsplendor_game_EXPORTS
 
-CXX_INCLUDES = -I/Users/alejandrobreen/Desktop/SplendorBot/include -isystem /opt/homebrew/opt/pybind11/include -isystem /Users/alejandrobreen/opt/anaconda3/envs/splendor_env/include/python3.8
+CXX_INCLUDES = -I/Users/alejandrobreen/Desktop/SplendorBot/include -isystem /opt/homebrew/opt/pybind11/include -isystem /Users/alejandrobreen/opt/anaconda3/include/python3.9
 
-CXX_FLAGSx86_64 = -std=gnu++17 -arch x86_64 -fPIC -fvisibility=hidden -Wall -Wextra -flto
+CXX_FLAGSx86_64 = -std=gnu++20 -arch x86_64 -fPIC -fvisibility=hidden -Wall -Wextra -flto
 
-CXX_FLAGS = -std=gnu++17 -arch x86_64 -fPIC -fvisibility=hidden -Wall -Wextra -flto
+CXX_FLAGS = -std=gnu++20 -arch x86_64 -fPIC -fvisibility=hidden -Wall -Wextra -flto
 

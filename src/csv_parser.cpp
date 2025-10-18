@@ -8,6 +8,7 @@ std::vector<Card> CSVParser::ParseCardsCSV(const std::string& filename) {
     std::vector<Card> cards;
     std::ifstream file(filename);
     std::string line;
+    int card_id = 0;
     
     while (std::getline(file, line)) {
         try {
@@ -15,19 +16,12 @@ std::vector<Card> CSVParser::ParseCardsCSV(const std::string& filename) {
             std::string field;
             std::vector<std::string> fields;
             
-            while (std::getline(ss, field, ',')) {
-                fields.push_back(field);
-            }
+            while (std::getline(ss, field, ',')) fields.push_back(field);
             
-            if (fields.size() < 8) continue;
-            
-            // Parse with default values on any error
-            int tier = 1;
-            try { tier = std::stoi(fields[0]); } catch (...) {}
+            int tier = std::stoi(fields[0]);
             
             std::string color_str = fields[1];
-            int prestige = 0;
-            try { prestige = std::stoi(fields[2]); } catch (...) {}
+            int prestige = fields[2].empty() ? 0 : std::stoi(fields[2]);
             
             Color color = WHITE;
             if (color_str == "blue") color = BLUE;
@@ -39,23 +33,22 @@ std::vector<Card> CSVParser::ParseCardsCSV(const std::string& filename) {
             std::array<uint8_t, DEV_COLORS> cost = {0, 0, 0, 0, 0};
             for (int i = 0; i < 5; i++) {
                 try {
-                    if (!fields[3 + i].empty()) {
-                        cost[i] = std::stoi(fields[3 + i]);
-                    }
+                    if (!fields[3 + i].empty()) cost[i] = std::stoi(fields[3 + i]);
                 } catch (...) {
                     cost[i] = 0; // Default to 0 on any error
                 }
             }
             
-            cards.emplace_back(prestige, color, cost, tier);
+            cards.emplace_back(prestige, color, cost, tier, card_id);
+            card_id += 1;
         }
         catch (const std::exception& e) {
             std::cout << "Error processing line, skipping: " << line << " - " << e.what() << std::endl;
         }
     }
     
-    std::cout << "Loaded " << cards.size() << " cards from CSV" << std::endl;
+    // std::cout << "Loaded " << cards.size() << " cards from CSV" << std::endl;
     return cards;
 }
 
-} // namespace splendor
+}
