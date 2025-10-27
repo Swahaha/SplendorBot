@@ -9,7 +9,10 @@ std::vector<Card> CSVParser::ParseCardsCSV(const std::string& filename) {
     std::ifstream file(filename);
     std::string line;
     int card_id = 0;
-    
+
+    // Skip header line
+    std::getline(file, line);
+
     while (std::getline(file, line)) {
         try {
             std::stringstream ss(line);

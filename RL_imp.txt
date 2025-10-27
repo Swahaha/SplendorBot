@@ -1,0 +1,8 @@
+Look at:
+- env_wrapper for how game state and observations are used
+- heuristic_agent has the deterministic one we made 
+    - Say it gets it in 50, instead of random being in the 70s
+    - Also strictly dominant over the random one winning 100 out of 100 games.
+- policy_network has the neural network information
+- generate_dataset is how I made the Behaviour Cloning stuff
+- train_bc and train_ppo are how stuff is trained, it's just boilerplate don't worry too much

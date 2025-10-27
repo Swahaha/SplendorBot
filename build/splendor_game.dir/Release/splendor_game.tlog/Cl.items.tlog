@@ -1,0 +1,9 @@
+C:\Users\swara\Desktop\Splendor\SplendorBot\src\player_state.cpp;C:\Users\swara\Desktop\Splendor\SplendorBot\build\splendor_game.dir\Release\player_state.obj
+C:\Users\swara\Desktop\Splendor\SplendorBot\src\game_state.cpp;C:\Users\swara\Desktop\Splendor\SplendorBot\build\splendor_game.dir\Release\game_state.obj
+C:\Users\swara\Desktop\Splendor\SplendorBot\src\game_initializer.cpp;C:\Users\swara\Desktop\Splendor\SplendorBot\build\splendor_game.dir\Release\game_initializer.obj
+C:\Users\swara\Desktop\Splendor\SplendorBot\src\move_executor.cpp;C:\Users\swara\Desktop\Splendor\SplendorBot\build\splendor_game.dir\Release\move_executor.obj
+C:\Users\swara\Desktop\Splendor\SplendorBot\src\move_generator.cpp;C:\Users\swara\Desktop\Splendor\SplendorBot\build\splendor_game.dir\Release\move_generator.obj
+C:\Users\swara\Desktop\Splendor\SplendorBot\src\state_serializer.cpp;C:\Users\swara\Desktop\Splendor\SplendorBot\build\splendor_game.dir\Release\state_serializer.obj
+C:\Users\swara\Desktop\Splendor\SplendorBot\src\types.cpp;C:\Users\swara\Desktop\Splendor\SplendorBot\build\splendor_game.dir\Release\types.obj
+C:\Users\swara\Desktop\Splendor\SplendorBot\src\csv_parser.cpp;C:\Users\swara\Desktop\Splendor\SplendorBot\build\splendor_game.dir\Release\csv_parser.obj
+C:\Users\swara\Desktop\Splendor\SplendorBot\src\bindings.cpp;C:\Users\swara\Desktop\Splendor\SplendorBot\build\splendor_game.dir\Release\bindings.obj
